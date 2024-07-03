@@ -3,7 +3,7 @@
     Plugin Name: My Ride
     Description: This Plugin is for listing different ride details.
     Version: 0.1
-    Author: Twin Dev
+    Author: Ali Nawaz Sahi
 */
 
 register_activation_hook(__FILE__, 'your_plugin_activation');
