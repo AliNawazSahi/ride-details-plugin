@@ -1,0 +1,21 @@
+
+ #main_container {
+    width: 100%;
+}
+.ride_type_heading {
+    font-size: 18px;
+  
+}
+#payment_type_heading {
+    font-size: 19px;
+   
+}
+
+#tab_expense_button {
+    padding: 13px 8px;
+    font-size: 12px;
+}
+#tab_ride_button {
+    padding: 13px 10px; transition: 0.3s;
+    font-size: 12px;
+}

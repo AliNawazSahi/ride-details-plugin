@@ -1,0 +1,220 @@
+/* Override global padding applied by WordPress */
+.has-global-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#main_container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    overflow-x: hidden;
+
+}
+
+.tab {
+    overflow: hidden;
+}
+#tab_container{
+    padding: 5px;
+}
+
+#tab_ride_button {
+    margin: 0px 1%;
+    background-color: #f1f1f1;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 10px;
+    border-bottom: 2px solid #4CAF50;
+    color: #000;
+    border-radius: 4px;
+}
+
+#tab_expense_button {
+    margin: 0px 1%;
+    background-color: #f1f1f1;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 10px;
+    border-bottom: 2px solid #4CAF50;
+    color: #000;
+    border-radius: 4px;
+}
+
+#logout_button {
+    float: right;
+    margin-left: 4%;
+    background-color: #d74848;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+#ride {
+    padding: 6px 12px;
+}
+
+#ride_details_container {
+    display: flex;
+    justify-content: space-between;
+}
+#ride_type{
+    margin-top: 10px;
+}
+.ride_type_heading {
+    margin: 22px 0px;
+    font-size: 23px;
+    color: #4caf50;
+}
+
+.ride_type_label {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.ride_type_radio_inputs {
+    margin-right: 5px;
+    transform: scale(1.6);
+}
+
+.ride_type_radio_inputs span {
+    font-size: 17px;
+}
+
+#payment_type {
+    display: none;
+    margin-top: 10px;
+}
+
+#payment_type_heading {
+    margin: 22px 0px;
+    font-size: 23px;
+    color: #4caf50;
+}
+
+.payment_type_label {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.payment_type_radio_input {
+    margin-right: 5px;
+    transform: scale(1.6);
+}
+
+.payment_type_radio_input span {
+    font-size: 17px;
+}
+
+.ride_amount_label {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.ride_amount_label span {
+    font-size: 24px;
+}
+
+.ride_amount_input {
+    outline: none;
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#expense {
+    display: none;
+    padding: 6px 12px;
+}
+
+.expense_type_heading {
+    margin: 22px 0px;
+    font-size: 27px;
+    color: #4caf50;
+}
+
+.expense_type_label {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.expense_type_radio_input {
+    margin-right: 5px;
+    transform: scale(1.6);
+}
+
+.expense_type_radio_input span {
+    font-size: 17px;
+}
+
+#other-expense-type {
+    display: none;
+    outline: none;
+    border: 1px solid #4caf50;
+    height: 42px;
+    width: 97%;
+    border-radius: 4px;
+}
+
+/* #expense_amount_label {
+    margin-top: 10px;
+    margin-bottom: 15px;
+} */
+
+#expense_amount_label span {
+    font-size: 24px;
+    display: block;
+}
+
+#expense_amount_input {
+    outline: none;
+    height: 45px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#submit-button {
+    width: 30%;
+    height: 50px;
+    margin-left: 4%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 35px;
+}
